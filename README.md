@@ -1,34 +1,34 @@
-## But du projet
-Le projet se base sur le très connu Iris Dataset, avec pour objectif de parvenir à une classification efficace des fleurs d'Iris suivant les 3 espèces d'Iris connues : 
+## Goal of the project
+The project is based on the well known Iris Dataset, with the goal to achieve an efficient classification of Iris flowers according to the 3 known Iris species: 
 - Setosa 
 - Versicolor
 - Virginica
 
-En se basant sur des attributs de la fleurs : 
-- Longueur du pétale
-- Largeur du pétale
-- Longueur du sépale
-- Largeur du sépale
-## Contenu du projet
-Le projet est constitué des étapes suivantes : 
-1. Analyse du dataset : 
-    * Distribution des différents attributs 
-    * Vérification de l'absence de valeurs manquantes
-2. Visualisation des données
-3. Classification des données 
-    * En utilisant l'algorithme Random Forrest
-    * En utilisant un arbre de décision
-## Pré-requis logiciel 
-- Python 3.8 et +
+Based on the attributes of the flowers : 
+- Length of the petal
+- Petal width
+- Sepal length
+- Sepal width
+## Content of the project
+The project consists of the following steps: 
+1. Dataset analysis: 
+    * Distribution of the different attributes 
+    * Verification of the absence of missing values
+2. Visualization of the data
+3. Classification of the data 
+    * Using the Random Forrest algorithm
+    * Using a decision tree
+## Software requirements 
+- Python 3.8 and higher
 
-Ainsi que les package et modules Python suivants : 
+As well as the following Python packages and modules: 
 - scikit-learn
 - Numpy
 - Pandas
-- Matplotlib (module Pyplot)
+- Matplotlib (Pyplot module)
 - Seaborn 
-## Performances atteintes
-|   Algorithme choisi    |   Précision en test (%)    |
-|---    |:-:    |
-|   Random Forrest (3 arbres)   |    100  |
-|   Decision Tree    |   97.78   |
+## Performances achieved
+|   Algorithm                   |   Accuracy (%)    |
+|---                            |:-:                |
+|   Random Forrest (3 arbres)   |    100            |
+|   Decision Tree               |   97.78           |
